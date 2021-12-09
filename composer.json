@@ -1,5 +1,20 @@
 {
+    "name": "wcs/dojo-cash-machine",
+    "description": "A Dojo coding exercise to small CashMachine class to match the provided tests",
+    "type": "project",
     "require-dev": {
-        "phpunit/phpunit": "^9.4"
-    }
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wcs\\DojoCashMachine\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Romain Clair",
+            "email": "romain.clair@wildcodeschool.com"
+        }
+    ],
+    "require": {}
 }

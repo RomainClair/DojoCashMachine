@@ -1,6 +1,8 @@
-<?php 
+<?php
 
 declare(strict_types=1);
+
+namespace Wcs\Tests;
 
 use PHPUnit\Framework\TestCase;
 
@@ -398,5 +400,5 @@ final class CashMachineTest extends TestCase
             $atm->getRemainingCash(),
             "Withdrawing 40 from a machine with one 10 and one 5 should left the machine empty (0 of each bills)"
         );
-    }    
+    }
 }
