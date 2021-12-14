@@ -29,7 +29,7 @@ We're assuming that we are dealing with euros so the possible bills the machine 
 
 ### Step 1
 
-Define a \CashMachine class in the src/CashMachine.php file.
+Define a \Wcs\CashMachine class in the src/CashMachine.php file.
 
 ### Step 2
 
