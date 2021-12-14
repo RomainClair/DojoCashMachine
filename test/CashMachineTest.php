@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Wcs\Tests;
 
 use PHPUnit\Framework\TestCase;
+use Wcs\CashMachine;
 
 final class CashMachineTest extends TestCase
 {
@@ -20,7 +21,7 @@ final class CashMachineTest extends TestCase
     public function testCashMachineClassExists(): void
     {
         require_once __DIR__ . '/../src/CashMachine.php';
-        $this->assertTrue(class_exists("CashMachine"), "You should have a CashMachine class");
+        $this->assertTrue(class_exists(CashMachine::class), "You should have a CashMachine class");
     }
 
     /**
